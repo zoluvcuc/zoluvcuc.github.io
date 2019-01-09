@@ -226,13 +226,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event,
 .fh5co-bg {
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .fh5co-bg {
-  background-position: center center;
+  background-position: center;
   width: 100%;
   float: left;
   position: relative;
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 10px 1%;
   list-style: none;
   min-height: 400px;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
