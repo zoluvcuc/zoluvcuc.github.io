@@ -125,7 +125,27 @@
         cursor: pointer;
       }
 
-      .mySlides {
+      .mySlides-myAlbum1 {
+        display: none;
+      }
+
+      .mySlides-myAlbum2 {
+        display: none;
+      }
+
+      .mySlides-myAlbum3 {
+        display: none;
+      }
+
+      .mySlides-myAlbum4 {
+        display: none;
+      }
+
+      .mySlides-myAlbum5 {
+        display: none;
+      }
+
+      .mySlides-myAlbum6 {
         display: none;
       }
 
@@ -183,12 +203,58 @@
         color: white;
       }
 
-      .demo {
+      .demo-myAlbum1 {
+        opacity: 0.6;
+      }
+
+      .demo-myAlbum2 {
+        opacity: 0.6;
+      }
+
+
+      .demo-myAlbum3 {
+        opacity: 0.6;
+      }
+
+      .demo-myAlbum4 {
+        opacity: 0.6;
+      }
+
+      .demo-myAlbum5 {
+        opacity: 0.6;
+      }
+
+      .demo-myAlbum6 {
         opacity: 0.6;
       }
 
       .active,
-      .demo:hover {
+      .demo-myAlbum1:hover {
+        opacity: 1;
+      }
+
+      .active,
+      .demo-myAlbum2:hover {
+        opacity: 1;
+      }
+
+      .active,
+      .demo-myAlbum3:hover {
+        opacity: 1;
+      }
+
+      .active,
+      .demo-myAlbum4:hover {
+        opacity: 1;
+      }
+
+      .active,
+      .demo-myAlbum5:hover {
+        opacity: 1;
+      }
+
+      .active,
+      .demo-myAlbum6:hover {
         opacity: 1;
       }
 
@@ -321,7 +387,7 @@
                                     </div>
                                     <div class="event-col">
                                         <i class="icon-calendar"></i>
-                                        <span>Ngày 03</span>
+                                        <span>Ngày 02</span>
                                         <span>Tháng 03 - 2019</span>
                                     </div>
                                     <p>Lễ cưới được tổ chức tại Trung tâm sự kiện tiệc cưới CTM Palace - 131 Nguyễn Phong Sắc, Dịch Vọng Hậu, Cầu Giấy, Hà Nội.<br> <br> <br> <br> </p>
@@ -425,7 +491,7 @@
                 <div class="col-md-12">
                     <ul id="fh5co-gallery-list">
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-                            <a src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                            <a src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="openModal('myAlbum1');currentSlide(1, 'myAlbum1')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>30 Photos</span>
                                     <h2>Timer starts now!</h2>
@@ -435,7 +501,7 @@
 
 
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-                            <a src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                            <a src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="openModal('myAlbum2');currentSlide(1, 'myAlbum2')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>90 Photos</span>
                                     <h2>Beautiful sunset</h2>
@@ -443,16 +509,15 @@
                             </a>
                         </li>
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-                            <a src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                            <a src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="openModal('myAlbum3');currentSlide(1, 'myAlbum3')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>12 Photos</span>
                                     <h2>Company's Conference Room</h2>
                                 </div>
                             </a>
                         </li>
-
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-                            <a src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                            <a src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="openModal('myAlbum4');currentSlide(1, 'myAlbum4')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>50 Photos</span>
                                     <h2>Useful baskets</h2>
@@ -460,7 +525,7 @@
                             </a>
                         </li>
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-                            <a src="https://imgur.com/rENfT9X.jpgg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                            <a src="https://imgur.com/rENfT9X.jpgg" style="width:100%" onclick="openModal('myAlbum5');currentSlide(1, 'myAlbum5')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>45 Photos</span>
                                     <h2>Skater man in the road</h2>
@@ -469,7 +534,7 @@
                         </li>
 
                         <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-                            <a src="https://imgur.com/jPeDFQB.jpgg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                            <a src="https://imgur.com/jPeDFQB.jpgg" style="width:100%" onclick="openModal('myAlbum6');currentSlide(1, 'myAlbum6')" class="hover-shadow cursor">
                                 <div class="case-studies-summary">
                                     <span>35 Photos</span>
                                     <h2>Two Glas of Juice</h2>
@@ -477,140 +542,341 @@
                             </a>
                         </li>
 
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-                            <a src="https://imgur.com/tuWtCXh.jpgg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-                                <div class="case-studies-summary">
-                                    <span>90 Photos</span>
-                                    <h2>Timer starts now!</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a src="https://i.imgur.com/suq0G06.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-                                <div class="case-studies-summary">
-                                    <span>56 Photos</span>
-                                    <h2>Beautiful sunset</h2>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-                            <a src="https://i.imgur.com/suq0G06.jpgg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-                                <div class="case-studies-summary">
-                                    <span>14 Photos</span>
-                                    <h2>Two Glas of Juice</h2>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>   
-                    <div id="myModal" class="modal">
-                      <span class="close cursor" onclick="closeModal()">&times;</span>
-                      <div class="modal-content">
+                    </ul>  
+                    
+                    <!-- myAlbum1 --> 
+                    <div id="myAlbum1" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum1')">&times;</span>
+                      <div class="album1 modal-content">
 
-                        <div class="mySlides">
-                          <div class="numbertext">1 / 9</div>
+                        <div class="mySlides-myAlbum1">
+                          <div class="numbertext">Album1 - 1 / 9</div>
                           <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
                         </div>
 
-                        <div class="mySlides">
-                          <div class="numbertext">2 / 9</div>
+                        <div class="mySlides-myAlbum1">
+                          <div class="numbertext">Album1 - 2 / 9</div>
                           <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
                         </div>
 
-                        <div class="mySlides">
-                          <div class="numbertext">3 / 9</div>
+                        <div class="mySlides-myAlbum1">
+                          <div class="numbertext">Album1 - 3 / 9</div>
                           <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
                         </div>
                         
-                        <div class="mySlides">
-                          <div class="numbertext">4 / 9</div>
+                        <div class="mySlides-myAlbum1">
+                          <div class="numbertext">Album1 - 4 / 4</div>
                           <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
                         </div>
-                        <div class="mySlides">
-                          <div class="numbertext">5 / 9</div>
-                          <img src="https://imgur.com/rENfT9X.jpgg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                          <div class="numbertext">6 / 9</div>
-                          <img src="https://imgur.com/jPeDFQB.jpgg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                          <div class="numbertext">7 / 9</div>
-                          <img src="https://imgur.com/tuWtCXh.jpgg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                          <div class="numbertext">8 / 9</div>
-                          <img src="https://i.imgur.com/suq0G06.jpg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                          <div class="numbertext">9 / 9</div>
-                          <img src="https://i.imgur.com/suq0G06.jpg" style="width:100%">
-                        </div>
+
                         
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum1')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum1')">&#10095;</a>
 
                         <div class="caption-container">
-                          <p id="caption"></p>
+                          <p id="caption-myAlbum1"></p>
                         </div>
 
 
                         <div class="column">
-                          <img class="demo cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                          <img class="demo-myAlbum1 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1, 'myAlbum1')" alt="Nature and sunrise">
                         </div>
                         <div class="column">
-                          <img class="demo cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                          <img class="demo-myAlbum1 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2, 'myAlbum1')" alt="Snow">
                         </div>
                         <div class="column">
-                          <img class="demo cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                          <img class="demo-myAlbum1 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3, 'myAlbum1')" alt="Mountains and fjords">
                         </div>
                         <div class="column">
-                          <img class="demo cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                          <img class="demo-myAlbum1 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4, 'myAlbum1')" alt="Northern Lights">
                         </div>
-                        <div class="column">
-                          <img class="demo cursor" src="https://i.imgur.com/rENfT9X.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-                        </div>
-                        <div class="column">
-                          <img class="demo cursor" src="https://imgur.com/jPeDFQB.jpgg" style="width:100%" onclick="currentSlide(6)" alt="Snow">
-                        </div>
-                        <div class="column">
-                          <img class="demo cursor" src="https://imgur.com/tuWtCXh.jpgg" style="width:100%" onclick="currentSlide(7)" alt="Mountains and fjords">
-                        </div>
-                        <div class="column">
-                          <img class="demo cursor" src="https://i.imgur.com/suq0G06.jpg" style="width:100%" onclick="currentSlide(8)" alt="Northern Lights">
-                        </div>
-                        <div class="column">
-                          <img class="demo cursor" src="https://i.imgur.com/suq0G06.jpg" style="width:100%" onclick="currentSlide(9)" alt="Northern Lights">
-                        </div>
+
                       </div>
                     </div>
+                    <!-- Done Album1 -->
+
+                    <!-- myAlbum2 -->
+                    <div id="myAlbum2" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum2')">&times;</span>
+                      <div class="album1 modal-content">
+
+                        <div class="mySlides-myAlbum2">
+                          <div class="numbertext">Album2 - 1 / 9</div>
+                          <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum2">
+                          <div class="numbertext">Album2 - 2 / 9</div>
+                          <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum2">
+                          <div class="numbertext">Album2 - 3 / 9</div>
+                          <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides-myAlbum2">
+                          <div class="numbertext">Album2 - 4 / 4</div>
+                          <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
+                        </div>
+
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum2')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum2')">&#10095;</a>
+
+                        <div class="caption-container">
+                          <p id="caption-myAlbum2"></p>
+                        </div>
+
+
+                        <div class="column">
+                          <img class="demo-myAlbum2 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1,'myAlbum1')" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum2 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2,'myAlbum1')" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum2 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3,'myAlbum1')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum2 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4,'myAlbum1')" alt="Northern Lights">
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Done Album2 -->
+
+                    <!-- myAlbum3 -->
+                    <div id="myAlbum3" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum3')">&times;</span>
+                      <div class="album1 modal-content">
+
+                        <div class="mySlides-myAlbum3">
+                          <div class="numbertext">Album3 - 1 / 9</div>
+                          <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum3">
+                          <div class="numbertext">Album3 - 2 / 9</div>
+                          <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum3">
+                          <div class="numbertext">Album3 - 3 / 9</div>
+                          <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides-myAlbum3">
+                          <div class="numbertext">Album3 - 4 / 4</div>
+                          <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
+                        </div>
+
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum3')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum3')">&#10095;</a>
+
+                        <div class="caption-container">
+                          <p id="caption-myAlbum3"></p>
+                        </div>
+
+
+                        <div class="column">
+                          <img class="demo-myAlbum3 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1,'myAlbum3')" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum3 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2,'myAlbum3')" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum3 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3,'myAlbum3')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum3 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4,'myAlbum3')" alt="Northern Lights">
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Done Album3 -->
+
+                    <!-- myAlbum4 -->
+                    <div id="myAlbum4" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum4')">&times;</span>
+                      <div class="album1 modal-content">
+
+                        <div class="mySlides-myAlbum4">
+                          <div class="numbertext">Album4 - 1 / 9</div>
+                          <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum4">
+                          <div class="numbertext">Album4 - 2 / 9</div>
+                          <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum4">
+                          <div class="numbertext">Album4 - 3 / 9</div>
+                          <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides-myAlbum4">
+                          <div class="numbertext">Album4 - 4 / 4</div>
+                          <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
+                        </div>
+
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum4')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum4')">&#10095;</a>
+
+                        <div class="caption-container">
+                          <p id="caption-myAlbum4"></p>
+                        </div>
+
+
+                        <div class="column">
+                          <img class="demo-myAlbum4 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1,'myAlbum4')" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum4 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2,'myAlbum4')" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum4 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3,'myAlbum4')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum4 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4,'myAlbum4')" alt="Northern Lights">
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Done Album4 -->
+
+                    <!-- myAlbum5 -->
+                    <div id="myAlbum5" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum5')">&times;</span>
+                      <div class="album1 modal-content">
+
+                        <div class="mySlides-myAlbum5">
+                          <div class="numbertext">Album5 - 1 / 9</div>
+                          <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum5">
+                          <div class="numbertext">Album5 - 2 / 9</div>
+                          <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum5">
+                          <div class="numbertext">Album5 - 3 / 9</div>
+                          <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides-myAlbum5">
+                          <div class="numbertext">Album5 - 4 / 4</div>
+                          <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
+                        </div>
+
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum5')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum5')">&#10095;</a>
+
+                        <div class="caption-container">
+                          <p id="caption-myAlbum5"></p>
+                        </div>
+
+
+                        <div class="column">
+                          <img class="demo-myAlbum5 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1,'myAlbum5')" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum5 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2,'myAlbum5')" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum5 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3,'myAlbum5')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum5 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4,'myAlbum5')" alt="Northern Lights">
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Done Album5 -->
+
+                    <!-- myAlbum6 -->
+                    <div id="myAlbum6" class="modal">
+                      <span class="close cursor" onclick="closeModal('myAlbum6')">&times;</span>
+                      <div class="album1 modal-content">
+
+                        <div class="mySlides-myAlbum6">
+                          <div class="numbertext">Album6 - 1 / 9</div>
+                          <img src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum6">
+                          <div class="numbertext">Album6 - 2 / 9</div>
+                          <img src="https://imgur.com/KNAvn3I.jpgg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides-myAlbum6">
+                          <div class="numbertext">Album6 - 3 / 9</div>
+                          <img src="https://imgur.com/yxcI4H7.jpgg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides-myAlbum6">
+                          <div class="numbertext">Album6 - 4 / 4</div>
+                          <img src="https://imgur.com/qlZDjNt.jpgg" style="width:100%">
+                        </div>
+
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'myAlbum6')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'myAlbum6')">&#10095;</a>
+
+                        <div class="caption-container">
+                          <p id="caption-myAlbum6"></p>
+                        </div>
+
+
+                        <div class="column">
+                          <img class="demo-myAlbum6 cursor" src="https://i.imgur.com/rQwMRzd.jpg" style="width:100%" onclick="currentSlide(1,'myAlbum6')" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum6 cursor" src="https://imgur.com/KNAvn3I.jpgg" style="width:100%" onclick="currentSlide(2,'myAlbum6')" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum6 cursor" src="https://imgur.com/yxcI4H7.jpgg" style="width:100%" onclick="currentSlide(3,'myAlbum6')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo-myAlbum6 cursor" src="https://imgur.com/qlZDjNt.jpgg" style="width:100%" onclick="currentSlide(4,'myAlbum6')" alt="Northern Lights">
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Done Album6 -->
                 </div>
             </div>
             <script>
-              function openModal() {
-                document.getElementById('myModal').style.display = "block";
+              function openModal(myModal) {
+                document.getElementById(myModal).style.display = "block";
+
               }
 
-              function closeModal() {
-                document.getElementById('myModal').style.display = "none";
+              function closeModal(myModal) {
+                document.getElementById(myModal).style.display = "none";
               }
 
-              var slideIndex = 1;
-              showSlides(slideIndex);
+              // var slideIndex = 1;
+              // showSlides(slideIndex);
 
-              function plusSlides(n) {
-                showSlides(slideIndex += n);
+              function plusSlides(n, p) {
+                showSlides(slideIndex += n, p);
               }
 
-              function currentSlide(n) {
-                showSlides(slideIndex = n);
+              function currentSlide(n, p) {
+                showSlides(slideIndex = n, p);
               }
 
-              function showSlides(n) {
+              function showSlides(n, p) {
                 var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                var captionText = document.getElementById("caption");
+                var slides = document.getElementsByClassName("mySlides-"+p);
+                var dots = document.getElementsByClassName("demo-"+p);
+                var captionText = document.getElementById("caption-"+p);
                 if (n > slides.length) {slideIndex = 1}
                 if (n < 1) {slideIndex = slides.length}
                 for (i = 0; i < slides.length; i++) {
